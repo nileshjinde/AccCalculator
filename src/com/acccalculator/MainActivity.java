@@ -40,7 +40,7 @@ public class MainActivity extends Activity {
 
                 if(s != null && !s.toString().isEmpty())
                     areaSize   = Double.parseDouble(s.toString());
-                double cement     = 0.045* areaSize;
+                double cement     = 0.45* areaSize;
                 double sand       = 0.29* areaSize;
                 double aggregate  = 0.39* areaSize;
                 double  steel     = 3.5 * areaSize;
