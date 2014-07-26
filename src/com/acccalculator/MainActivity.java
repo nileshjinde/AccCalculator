@@ -41,10 +41,10 @@ public class MainActivity extends Activity {
                 if(s != null && !s.toString().isEmpty())
                     areaSize   = Double.parseDouble(s.toString());
                 double cement     = 0.45* areaSize;
-                double sand       = 0.29* areaSize;
-                double aggregate  = 0.39* areaSize;
-                double  steel     = 3.5 * areaSize;
-                double bricks     = 22 * areaSize;
+                double sand       = 1.2* areaSize;
+                double aggregate  = 0.65* areaSize;
+                double  steel     = 2.3 * areaSize;
+                double bricks     = 18 * areaSize;
 
                 if(areaSize == 0.0){
                     clearText();

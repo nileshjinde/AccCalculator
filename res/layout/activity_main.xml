@@ -295,9 +295,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:text="By \&apos; Somshekhar.Patil\&apos;"
-                android:textSize="15sp"
+                android:gravity="center_vertical"
+                android:text="\&quot;Any Carlification contact your Engineer\&quot;\n        By \&quot; Somashekar.Patil \&quot;"
+                android:textSize="12sp"
                 android:textStyle="italic" />
         </LinearLayout>
     </LinearLayout>
