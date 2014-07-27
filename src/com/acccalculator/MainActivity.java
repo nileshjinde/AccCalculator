@@ -43,8 +43,8 @@ public class MainActivity extends Activity {
                 double cement     = 0.45* areaSize;
                 double sand       = 1.2* areaSize;
                 double aggregate  = 0.65* areaSize;
-                double  steel     = 2.3 * areaSize;
-                double bricks     = 18 * areaSize;
+                double  steel     = 2.6 * areaSize;
+                double bricks     = 16 * areaSize;
 
                 if(areaSize == 0.0){
                     clearText();
